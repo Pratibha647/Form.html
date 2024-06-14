@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: #414141;
+        color: beige;
+        
+    }
+    button{
+        background-color: aqua;
+    }
+</style>
+<body>
+    <h1>APPLICATION FORM</h1><hr><br>
+    <form action="">
+        
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="first name" name="" id="fname"/><br/><br>
+        <label for="sname">Second Name:</label>
+        <input type="text" placeholder="second name" name="" id="sname"/><br/><br>
+        <label for="pass">Password:</label>
+        <input type="Password" placeholder="password" name="" id="pass"/><br/><br>
+
+        <!-- radiobutton -->
+        Gender:<input type="radio" placeholder="Gender:">male
+        <input type="radio" placeholder="Gender:">female <br><br>
+
+        <!-- checkbox -->
+        Course: <input type="checkbox" name="Course1" value="HTML">HTML
+        <input type="checkbox" name="Course2" value="CSS">CSS
+        <input type="checkbox" name="Course3" value="javascript">Js
+        <input type="checkbox" name="Course4" value="python">Python <br><br>
+
+        <!-- dropdown menu -->
+        age: <select name="Age">
+        <option>10-20</option>  
+        <option>20-30</option>  
+        <option>30-40</option>  
+        <option>40-50</option>
+        </select> <br><br><br>  
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
